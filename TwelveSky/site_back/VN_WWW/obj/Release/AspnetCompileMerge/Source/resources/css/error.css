@@ -1,0 +1,18 @@
+﻿.error
+{
+	background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 1.5;
+    margin: 5.5em auto 0;
+    max-width: 640px;
+    padding: 30px 35px 30px 37px;
+    width: 100%;
+}
+.error a
+{
+	color: rgb(39, 110, 242);
+    text-decoration: none;    
+}

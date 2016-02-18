@@ -1,0 +1,9 @@
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\bin\Release\TwelveWebAppTier.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\bin\Release\TwelveWebAppTier.pdb
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\bin\Release\Field.DTO.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\bin\Release\Field.Framework.Data.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\bin\Release\Field.DTO.pdb
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\bin\Release\Field.Framework.Data.pdb
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\obj\Release\TwelveWebAppTier.csprojResolveAssemblyReference.cache
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\obj\Release\TwelveWebAppTier.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\obj\Release\TwelveWebAppTier.pdb

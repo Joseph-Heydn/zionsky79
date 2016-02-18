@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5E147D3-6478-4AE9-AF81-883C95051DB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Field.Framework.Base</RootNamespace>
+    <AssemblyName>Field.Framework.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authority\AuthAccountInfo.cs" />
+    <Compile Include="Authority\AuthLoginAccount.cs" />
+    <Compile Include="Authority\AuthMenuInfo.cs" />
+    <Compile Include="Authority\AuthorityCookieCrypto.cs" />
+    <Compile Include="Authority\AuthorityCookiePacker.cs" />
+    <Compile Include="Authority\AuthorityManager.cs" />
+    <Compile Include="Authority\CookiePackerBase.cs" />
+    <Compile Include="BasePage\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasePage\PopUpBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board\fileProcess.cs" />
+    <Compile Include="Board\Paging.cs" />
+    <Compile Include="Library\AppConfig.cs" />
+    <Compile Include="Library\ConnString.cs" />
+    <Compile Include="Library\ImageHandler.cs" />
+    <Compile Include="Library\MatchSelectList.cs" />
+    <Compile Include="Library\MenuList.cs" />
+    <Compile Include="Library\SendMail.cs" />
+    <Compile Include="Values\MessageValue.cs" />
+    <Compile Include="Library\PasswordManager.cs" />
+    <Compile Include="Values\RandomValues.cs" />
+    <Compile Include="Values\ResourceValues.cs" />
+    <Compile Include="Library\WebLog.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Values\BaseCodeValues.cs" />
+    <Compile Include="Values\ConfigValues.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataAccessLayer\SiteManagerAppTier\SiteManagerAppTier.csproj">
+      <Project>{14b28ac8-e670-4abe-9409-7b06df93005c}</Project>
+      <Name>SiteManagerAppTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Field.Framework.Logging\Field.Framework.Logging.csproj">
+      <Project>{25532304-473c-4d9a-b5ff-69342478a472}</Project>
+      <Name>Field.Framework.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Field.Framework.Security\Field.Framework.Security.csproj">
+      <Project>{8007c9dc-f5d7-4367-b89c-10a7e7cec693}</Project>
+      <Name>Field.Framework.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Field.Framework.Web\Field.Framework.Web.csproj">
+      <Project>{746eb5d3-ed61-45ee-b1c1-7b2f44af641e}</Project>
+      <Name>Field.Framework.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,689 @@
+2016-01-30 10:55:08
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 10:55:30
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+Procedure or function 'uspGetArticleList' expects parameter '@pFilterText', which was not supplied.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   위치: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   위치: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   위치: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   위치: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   위치: System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   위치: System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleList.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleList.cs:줄 40
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 143
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:05:56
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:06:19
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cTitle'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 102
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:07:44
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:08:45
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:09:51
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:13:24
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:14:01
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:23:36
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:23:49
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+개체를 DBNull에서 다른 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   위치: System.Convert.ToInt64(Object value)
+   위치: BasePage.fnIsFile(Object pImage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 212
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 104
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:25:12
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:25:13
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+개체를 DBNull에서 다른 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   위치: System.Convert.ToInt64(Object value)
+   위치: BasePage.fnIsFile(Object pImage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 217
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 104
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:26:14
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:26:16
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+개체를 DBNull에서 다른 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   위치: System.Convert.ToInt64(Object value)
+   위치: BasePage.fnIsFile(Object pImage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 217
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 104
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:26:55
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+개체를 DBNull에서 다른 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   위치: System.Convert.ToInt64(Object value)
+   위치: BasePage.fnIsFile(Object pImage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 217
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 104
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:27:27
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+개체를 DBNull에서 다른 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   위치: System.Convert.ToInt64(Object value)
+   위치: BasePage.fnIsFile(Object pImage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 217
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 104
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:31:47
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:34:52
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:34:54
+http://localhost:11590/web/board/list.aspx?pMenu=1000007
+개체를 DBNull에서 다른 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.DBNull.System.IConvertible.ToInt64(IFormatProvider provider)
+   위치: System.Convert.ToInt64(Object value)
+   위치: BasePage.fnIsFile(Object pImage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 217
+   위치: ASP.web_board_list_aspx.__DataBind__control38(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx:줄 104
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.list.fnDisplayArticleList() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 11:36:23
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 11:50:19
+http://localhost:11590/web/board/write.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: BasePage.fnReturnPage(String pMovePage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 100
+   위치: BasePage.fnCheckLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 62
+   위치: BasePage.BasePage_Load() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 33
+   위치: BasePage.OnInit(EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-01-30 15:11:31
+http://localhost:11590/web/board/list.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 113
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 16:38:13
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 41
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 20
+--------------------------------------------------------------------------------
+
+2016-01-30 16:38:42
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100003&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 118
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 16:38:49
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100002&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 118
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 16:38:52
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100001&pReturn=/web/board/list.aspx?pMenu=1000007
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cFileSize'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.web_board_view_aspx.__DataBind__control30(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx:줄 103
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 141
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 16:40:14
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 41
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 20
+--------------------------------------------------------------------------------
+
+2016-01-30 16:40:25
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100001&pReturn=/web/board/list.aspx?pMenu=1000007
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cFileSize'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.web_board_view_aspx.__DataBind__control30(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx:줄 103
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 142
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-30 16:43:23
+http://localhost:11590/web/board/list.aspx?/web/board/list.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 46
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 16:45:19
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 42
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-01-30 16:45:29
+http://localhost:11590/web/board/list.aspx?/web/board/list.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 46
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 22:39:10
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 42
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-01-30 22:45:27
+http://localhost:11590/web/board/list.aspx?/web/board/list.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.list.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 46
+   위치: Web.TwelveSky.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\list.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-01-30 22:45:42
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100003&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 119
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-30 22:45:46
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100002&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 119
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-30 22:48:25
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 42
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-01-30 22:48:42
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100003&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 119
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-30 22:48:50
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100003&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 119
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-30 22:54:22
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100003&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 119
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-30 23:12:42
+http://localhost:11590/web/board/view.aspx?pMenu=1000007&pWrite=100003&pReturn=/web/board/list.aspx?pMenu=1000007
+지정한 캐스트가 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToInt64(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 93
+   위치: Field.TwelveWebAppTier.Dal.uspGetArticleDetailInfo.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\TwelveWebAppTier\Dal\uspGetArticleDetailInfo.cs:줄 88
+   위치: Web.TwelveSky.web.board.view.fnDisplayArticle()
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e)
+--------------------------------------------------------------------------------
+
+2016-01-30 23:14:34
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 42
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-01-30 23:24:49
+http://localhost:11590/web/board/write.aspx
+StartIndex는 0 이상이어야 합니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: BasePage.fnReturnPage(String pMovePage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 96
+   위치: BasePage.fnCheckLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 63
+   위치: BasePage.BasePage_Load() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 34
+   위치: BasePage.OnInit(EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 22
+--------------------------------------------------------------------------------
+
+2016-01-30 23:24:49
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 44
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-30 23:26:20
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 42
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-01-30 23:31:30
+http://localhost:11590/web/board/view.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.view.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 42
+   위치: Web.TwelveSky.web.board.view.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\view.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Field.Framework.Security.Cryptography.CryptoHelper">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\CryptoHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.Crypto">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\Crypto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CryptoProvider" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.CryptoProvider">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <AssociationLine Name="CryptoEncoding" Type="Field.Framework.Security.Cryptography.CryptoEncoding" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="4.625" />
+        <Point X="10" Y="4.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAAAAAAAAQAIAAAAAAAAAAAAACAAAAAgAAAAE=</HashCode>
+      <FileName>Cryptography\CryptoProvider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CryptoEncoding" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.CryptoEncoding">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAgAE=</HashCode>
+      <FileName>Cryptography\CryptoEncoding.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.Base64CryptoEncoding">
+    <Position X="8.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAA=</HashCode>
+      <FileName>Cryptography\Base64CryptoEncoding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.HexCryptoEncoding">
+    <Position X="11" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAA=</HashCode>
+      <FileName>Cryptography\HexCryptoEncoding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.CryptoService" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAACAAgAAAABAAACA=</HashCode>
+      <FileName>Cryptography\CryptoService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.RC2Provider">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\RC2Provider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.RijndaelProvider" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\RijndaelProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.DESProvider" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\DESProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field.Framework.Security.Cryptography.TripleDESProvider" Collapsed="true">
+    <Position X="6.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\TripleDESProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Field.Framework.Security.Cryptography.ICryptoProvider" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAE=</HashCode>
+      <FileName>Cryptography\ICryptoProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Field.Framework.Security.Cryptography.ICryptoEncoding" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAgAE=</HashCode>
+      <FileName>Cryptography\ICryptoEncoding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Field.Framework.Security.Cryptography.ICrypto" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cryptography\ICrypto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

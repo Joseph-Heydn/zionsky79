@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_100.Text" xml:space="preserve">
+    <value>Câu hỏi thường gặp</value>
+  </data>
+  <data name="lbl_conPage_101.Text" xml:space="preserve">
+    <value>Kỹ năng mới của cầu thủ ở TwelveSky2 WSP:</value>
+  </data>
+  <data name="lbl_conPage_102.Text" xml:space="preserve">
+    <value>Q: What is TwelveSky2 WSP?</value>
+  </data>
+  <data name="lbl_conPage_103.Text" xml:space="preserve">
+    <value>A: TwelveSky2 WSP is a fast-paced Massively Multiplayer Online Role-Playing Game (MMORPG) that combines competitive Faction vs Faction game play with Player vs Environment (PvE) game play.</value>
+  </data>
+  <data name="lbl_conPage_104.Text" xml:space="preserve">
+    <value>Q: Is this game free?</value>
+  </data>
+  <data name="lbl_conPage_105.Text" xml:space="preserve">
+    <value>A: Yes! All of the games that we offers are Free to Download and Free to Play!</value>
+  </data>
+  <data name="lbl_conPage_106.Text" xml:space="preserve">
+    <value>Q: What are the System Requirements?</value>
+  </data>
+  <data name="lbl_conPage_107.Text" xml:space="preserve">
+    <value>A: You can find the System Requirements for TwelveSky2 WSP here.</value>
+  </data>
+  <data name="lbl_conPage_108.Text" xml:space="preserve">
+    <value>Q: Where can I download TwelveSky2 WSP?</value>
+  </data>
+  <data name="lbl_conPage_109.Text" xml:space="preserve">
+    <value>A: Please visit the TwelveSky2 WSP download site.</value>
+  </data>
+  <data name="lbl_conPage_110.Text" xml:space="preserve">
+    <value>Q: Where can new players get more information on how to play?</value>
+  </data>
+  <data name="lbl_conPage_111.Text" xml:space="preserve">
+    <value>A: Game Guide and Forums.</value>
+  </data>
+  <data name="lbl_conPage_201.Text" xml:space="preserve">
+    <value>Câu hỏi khi chơi Game:</value>
+  </data>
+  <data name="lbl_conPage_202.Text" xml:space="preserve">
+    <value>Q: How many Characters can I create on one Account?</value>
+  </data>
+  <data name="lbl_conPage_203.Text" xml:space="preserve">
+    <value>A: You are able to create 3 Characters.</value>
+  </data>
+  <data name="lbl_conPage_204.Text" xml:space="preserve">
+    <value>Q: How many Factions are there, and how many weapons?</value>
+  </data>
+  <data name="lbl_conPage_205.Text" xml:space="preserve">
+    <value>A: There are three starting Factions, with an additional fourth available to join later in the game. Each starting faction has three weapons.</value>
+  </data>
+  <data name="lbl_conPage_206.Text" xml:space="preserve">
+    <value>Q: How do I restore my Health and Chi?</value>
+  </data>
+  <data name="lbl_conPage_207.Text" xml:space="preserve">
+    <value>A: The Herbalist sells Health and Chi Pills/Tablets, which can also be found as monster drops.</value>
+  </data>
+  <data name="lbl_conPage_208.Text" xml:space="preserve">
+    <value>Q: How do I make money?</value>
+  </data>
+  <data name="lbl_conPage_209.Text" xml:space="preserve">
+    <value>A: In game currency can be dropped from monsters, contained in an item called a Fortune Pouch, or gained through sale of items found (either to NPCs or other players).</value>
+  </data>
+  <data name="lbl_conPage_210.Text" xml:space="preserve">
+    <value>Q: How many people can join a Party?</value>
+  </data>
+  <data name="lbl_conPage_211.Text" xml:space="preserve">
+    <value>A: 5 people are able to be in one Party together.</value>
+  </data>
+  <data name="lbl_conPage_212.Text" xml:space="preserve">
+    <value>Q: How do Parties work?</value>
+  </data>
+  <data name="lbl_conPage_213.Text" xml:space="preserve">
+    <value>A: Party members receive a bonus to exp per monster killed that ranges from 20% to 50% depending on the number of party members. Monster drops are now shared among the party as well, with any party member able to pick up items dropped.</value>
+  </data>
+</root>

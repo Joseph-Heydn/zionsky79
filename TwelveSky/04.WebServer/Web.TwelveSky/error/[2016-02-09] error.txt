@@ -1,0 +1,873 @@
+2016-02-09 09:53:25
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 123
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:12
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:17
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:25
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:26
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:27
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:28
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:29
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:29
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:33
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:35
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:36
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:36
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:38
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 12:42:38
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 17:59:00
+http://localhost:11590/web/privacy/profile.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-09 17:59:18
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 123
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-09 18:00:40
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:01:10
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:02:19
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:11:38
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:12:37
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:16:31
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:21:28
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:24:12
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+'System.Data.ParameterDirection' 형식 개체를 'System.String' 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToString(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 230
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:25:31
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:26:05
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+매개 변수 값을 ParameterDirection에서 DateTime(으)로 변환하지 못했습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   위치: System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   위치: System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   위치: System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   위치: System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:26:48
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+Error converting data type varchar to smalldatetime.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   위치: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   위치: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:28:02
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+'System.Data.ParameterDirection' 형식 개체를 'System.String' 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToString(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 230
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:28:15
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+'System.Data.ParameterDirection' 형식 개체를 'System.String' 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToString(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 230
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:36:27
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+'System.Data.ParameterDirection' 형식 개체를 'System.String' 형식으로 캐스팅할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: Field.Framework.Data.ParameterConvert.ToString(Object value) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\Database\ParameterConvert.cs:줄 230
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:38:38
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 115
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 18:40:49
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 115
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 19:06:38
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 115
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 19:09:42
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 115
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 19:19:21
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 116
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 19:21:14
+http://localhost:11590/web/privacy/profile.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-09 19:22:30
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile()
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e)
+--------------------------------------------------------------------------------
+
+2016-02-09 19:22:57
+http://localhost:11590/web/privacy/profile.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-09 19:24:44
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 116
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 19:25:55
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format, IFormatProvider provider)
+   위치: System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   위치: System.String.Format(String format, Object arg0)
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 116
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 22:07:38
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+Procedure or function 'uspGetAccountInfo' expects parameter '@oNickName', which was not supplied.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   위치: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   위치: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspGetAccountInfo.fnGetResultInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\privacy\uspGetAccountInfo.cs:줄 32
+   위치: Web.TwelveSky.web.privacy.profile.fnDisplayProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 96
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-09 22:09:14
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 160
+--------------------------------------------------------------------------------
+
+2016-02-09 22:11:00
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 160
+--------------------------------------------------------------------------------
+
+2016-02-09 22:14:40
+http://localhost:11590/web/privacy/profile.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-09 22:15:28
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 160
+--------------------------------------------------------------------------------
+
+2016-02-09 22:42:50
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+문자열이 유효한 DateTime으로 인식되지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 138
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 158
+--------------------------------------------------------------------------------
+
+2016-02-09 22:47:59
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+문자열이 유효한 DateTime으로 인식되지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 138
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 158
+--------------------------------------------------------------------------------
+
+2016-02-09 22:49:07
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+문자열이 유효한 DateTime으로 인식되지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 138
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 158
+--------------------------------------------------------------------------------
+
+2016-02-09 22:49:19
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+문자열이 유효한 DateTime으로 인식되지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 138
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 158
+--------------------------------------------------------------------------------
+
+2016-02-09 22:49:51
+http://localhost:11590/web/privacy/profile.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.profile.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-09 22:50:15
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+문자열이 유효한 DateTime으로 인식되지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   위치: System.Convert.ToDateTime(String value)
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 138
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 158
+--------------------------------------------------------------------------------
+
+2016-02-09 22:50:50
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 159
+--------------------------------------------------------------------------------
+
+2016-02-09 23:07:36
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 172
+--------------------------------------------------------------------------------
+
+2016-02-09 23:18:37
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+파일이 이미 있으므로 만들 수 없습니다.
+
+--------------------------------------------------------------------------------
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   위치: System.IO.File.Move(String sourceFileName, String destFileName)
+   위치: fileProcess.fnMoveFile(String pPath, String pMenuNo, String pFileInfo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Board\fileProcess.cs:줄 66
+   위치: Web.TwelveSky.web.privacy.profile.fnMoveFile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 163
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 171
+--------------------------------------------------------------------------------
+
+2016-02-09 23:18:58
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+파일이 이미 있으므로 만들 수 없습니다.
+
+--------------------------------------------------------------------------------
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   위치: System.IO.File.Move(String sourceFileName, String destFileName)
+   위치: fileProcess.fnMoveFile(String pPath, String pMenuNo, String pFileInfo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Board\fileProcess.cs:줄 66
+   위치: Web.TwelveSky.web.privacy.profile.fnMoveFile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 163
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 155
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 171
+--------------------------------------------------------------------------------
+
+2016-02-09 23:23:31
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+파일이 이미 있으므로 만들 수 없습니다.
+
+--------------------------------------------------------------------------------
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   위치: System.IO.File.Move(String sourceFileName, String destFileName)
+   위치: fileProcess.fnMoveFile(String pPath, String pMenuNo, String pFileInfo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Board\fileProcess.cs:줄 66
+   위치: Web.TwelveSky.web.privacy.profile.fnMoveFile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 164
+   위치: Web.TwelveSky.web.privacy.profile.fnSaveProfile() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 156
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 185
+--------------------------------------------------------------------------------
+

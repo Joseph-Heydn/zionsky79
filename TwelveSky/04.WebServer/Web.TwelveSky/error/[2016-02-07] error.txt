@@ -1,0 +1,92 @@
+2016-02-07 20:06:05
+http://localhost:11590/web/privacy/signupOk.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.signupOk.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signupOk.aspx.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.signupOk.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signupOk.aspx.cs:줄 15
+--------------------------------------------------------------------------------
+
+2016-02-07 20:06:27
+http://localhost:11590/web/privacy/signupOk.aspx?pMenu=1000008
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.signupOk.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signupOk.aspx.cs:줄 34
+   위치: Web.TwelveSky.web.privacy.signupOk.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signupOk.aspx.cs:줄 15
+--------------------------------------------------------------------------------
+
+2016-02-07 21:29:30
+http://localhost:11590/web/privacy/signup.aspx?pMenu=1000025
+Procedure or function 'uspSetNewAccount' expects parameter '@pHostIp', which was not supplied.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   위치: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   위치: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspSetNewAccount.fnSetWriteInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\entry\uspSetNewAccount.cs:줄 32
+   위치: Web.TwelveSky.web.privacy.signup.fnRegister() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signup.aspx.cs:줄 78
+   위치: Web.TwelveSky.web.privacy.signup.btnSignUp_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signup.aspx.cs:줄 98
+--------------------------------------------------------------------------------
+
+2016-02-07 21:41:40
+http://localhost:11590/web/privacy/signup.aspx?pMenu=1000025
+Procedure or function 'uspSetNewAccount' expects parameter '@pHostIp', which was not supplied.
+--------------------------------------------------------------------------------
+   위치: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   위치: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   위치: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   위치: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   위치: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   위치: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   위치: Field.AuthorityAppTier.Dal.uspSetNewAccount.fnSetWriteInfo(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\AuthorityAppTier\Dal\entry\uspSetNewAccount.cs:줄 34
+   위치: Web.TwelveSky.web.privacy.signup.fnRegister() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signup.aspx.cs:줄 78
+   위치: Web.TwelveSky.web.privacy.signup.btnSignUp_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signup.aspx.cs:줄 98
+--------------------------------------------------------------------------------
+
+2016-02-07 21:42:53
+http://localhost:11590/web/privacy/signup.aspx?pMenu=1000025
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.signup.fnRegister() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signup.aspx.cs:줄 90
+   위치: Web.TwelveSky.web.privacy.signup.btnSignUp_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\signup.aspx.cs:줄 99
+--------------------------------------------------------------------------------
+
+2016-02-07 21:52:41
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 113
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 135
+--------------------------------------------------------------------------------
+

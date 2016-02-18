@@ -1,0 +1,3182 @@
+2016-02-13 16:29:02
+http://localhost:9316/login.aspx
+값이 너무 크거나 작아 부호 없는 바이트 형식에 맞지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.Convert.ToByte(Int32 value)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 49
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 16:31:57
+http://localhost:9316/login.aspx
+값이 너무 크거나 작아 부호 없는 바이트 형식에 맞지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.Convert.ToByte(Int32 value)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 49
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 16:43:35
+http://localhost:9316/index.aspx
+열 [cStep]을(를) 찾을 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.NameNode.Bind(DataTable table, List`1 list)
+   위치: System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   위치: System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   위치: System.Data.DataExpression.Bind(DataTable table)
+   위치: System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   위치: System.Data.DataTable.Select(String filterExpression)
+   위치: Web.Manage.App_Common.ucLeftMenu.OnCategoryMenuBound(Object sender, RepeaterItemEventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\App_Common\ucLeftMenu.ascx.cs:줄 94
+   위치: System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.Manage.App_Common.ucLeftMenu.fnDisplayMenu() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\App_Common\ucLeftMenu.ascx.cs:줄 65
+   위치: Web.Manage.App_Common.ucLeftMenu.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\App_Common\ucLeftMenu.ascx.cs:줄 13
+--------------------------------------------------------------------------------
+
+2016-02-13 16:44:14
+http://localhost:9316/index.aspx
+열 [cStep]을(를) 찾을 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.NameNode.Bind(DataTable table, List`1 list)
+   위치: System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   위치: System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   위치: System.Data.DataExpression.Bind(DataTable table)
+   위치: System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   위치: System.Data.DataTable.Select(String filterExpression)
+   위치: Web.Manage.App_Common.ucLeftMenu.OnCategoryMenuBound(Object sender, RepeaterItemEventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\App_Common\ucLeftMenu.ascx.cs:줄 94
+   위치: System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.Manage.App_Common.ucLeftMenu.fnDisplayMenu() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\App_Common\ucLeftMenu.ascx.cs:줄 65
+   위치: Web.Manage.App_Common.ucLeftMenu.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\App_Common\ucLeftMenu.ascx.cs:줄 13
+--------------------------------------------------------------------------------
+
+2016-02-13 17:26:37
+http://localhost:9316/login.aspx
+값이 너무 크거나 작아 부호 없는 바이트 형식에 맞지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.Convert.ToByte(Int32 value)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 49
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 17:29:59
+http://localhost:9316/login.aspx?r=/
+값이 너무 크거나 작아 부호 없는 바이트 형식에 맞지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.Convert.ToByte(Int32 value)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 49
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 17:30:43
+http://localhost:9316/login.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 47
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 17:30:43
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 17:30:43
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:02:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:02:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:03:32
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:03:32
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:26
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:26
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:46
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:46
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:52
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:52
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:59
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:04:59
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:05:01
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:05:01
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:06:28
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:06:28
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:14
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:17
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:21
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:31
+http://localhost:9316/web/board/list.aspx?m=1000005
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:09:41
+http://localhost:9316/web/board/list.aspx?m=1000004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:25:24
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:47
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:31:54
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:37:20
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:14
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:38:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:46
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:50
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:50
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:50
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:51
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:51
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:51
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:51
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:39:51
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:15
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:19
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:40:57
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:00
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=6&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:02
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=13&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:03
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:08
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:10
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=14&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:25
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:27
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:29
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:41:34
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/web/board/list.aspx?m=1000006&g=1001004
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.Manage.web.board.list.fnInitDefaultSetting() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\web\board\list.aspx.cs:줄 87
+   위치: Web.Manage.web.board.list.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\web\board\list.aspx.cs:줄 22
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:06
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:12
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:13
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:14
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=4&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:43:16
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:48
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:45:53
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:56
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:52:59
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:56:23
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/login.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 47
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:58:35
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/login.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 47
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 18:59:50
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:01:58
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:39
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:06:40
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/login.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 47
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:47:44
+http://localhost:9316/index.aspx
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:09
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:11
+http://localhost:9316/web/board/list.aspx?m=1000005&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:13
+http://localhost:9316/web/board/list.aspx?m=1000004&g=1001003
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:15
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:17
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:18
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:19
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=1&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:21
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=2&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 19:48:22
+http://localhost:9316/web/board/guide.aspx?m=1000006&w=3&g=1001004
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: Web.Manage.masters.fnSelected(Object pExecUrl) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\masters.master.cs:줄 29
+--------------------------------------------------------------------------------
+
+2016-02-13 21:21:13
+http://localhost:9316/site/actionLog.aspx?m=5&g=1001001
+0 테이블을 찾을 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.DataTableCollection.get_Item(Int32 index)
+   위치: Field.SiteManagerAppTier.Dal.KWP00102_SG_WS_MANGR_LOG_LIST_R.fnGetResultSet(String pConnString) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\DataAccessLayer\SiteManagerAppTier\Dal\02.site_log\KWP00102_SG_WS_MANGR_LOG_LIST_R.cs:줄 36
+   위치: Web.Manage.site.actionLog.fnSearch() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\site\actionLog.aspx.cs:줄 129
+   위치: Web.Manage.site.actionLog.btnSearch_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\site\actionLog.aspx.cs:줄 305
+--------------------------------------------------------------------------------
+
+2016-02-13 23:05:08
+http://localhost:802/login.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: Web.Manage.login.fnAuthLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 47
+   위치: Web.Manage.login.btnLogin_Click(Object sender, EventArgs eventArgs) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.Manage\login.aspx.cs:줄 59
+--------------------------------------------------------------------------------
+

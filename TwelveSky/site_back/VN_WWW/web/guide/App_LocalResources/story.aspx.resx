@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_01.Text" xml:space="preserve">
+    <value>Nhiều năm trước đất nước dưới sự cai trị của quân đoàn mười hai. Cai trị của họ rất khắc nghiệt và tàn bạo. Hầu hết được biết đến là sự đói nghèo và áp bức, họ không thể để sự cai trị đó làm chủ trong cuộc sống của mình. Tuy nhiên, họ không co sự cạnh tranh. Trong các khu vực xa phía Bắc một nhà lãnh đạo công khai phản đối đối xử tàn ác đối với những người dân, Legacy Swordsman, chúa Chen. Hành động của người Nangin, một trong những phe phái nổi bật nhất trong khu vực này. Đó là trong một cuộc nổi dậy mãnh liệt, khi một trong những bộ lạc phía Nam bắt đầu chống lại bạo lực của quân đoàn do Chúa kiểm soát lãnh thổ của họ.Do đó Chúa Chen quyết định đặt dấu chấm hết cho sự kìm kẹp của quân đoàn mười hai. Đã có rất nhiều truyền thuyết về khả năng đáng kinh ngạc của các bậc thầy 12, và về những viên đá thiêng liêng mà quân đoàn mười hai có đươc. Những viên đá này,nói cho biết trước sự việc, giúp cho quân đoàn có được sức mạnh của quần chúng nhân dân. Chúa Chen nghĩ ra một kế hoạch để giành lại quyền kiểm soát của các mảnh vỡ thiêng liêng và kết hợp chúng một lần nữa, bởi vì chúng có thể cung cấp đủ năng lượng cho Nangin để cuối cùng đặt dấu chấm hết cho sự đau khổ,vô nhân tính đối với người dân.</value>
+  </data>
+  <data name="lbl_conPage_02.Text" xml:space="preserve">
+    <value>Cuộc chiến diễn ra suốt thập một thập kỷ qua, nhưng nó đã kết thúc trong chỉ một vài ngày. Sức mạnh thanh kiếm của Chen là quá lớn, ngay cả đối với những nỗ lực kết hợp khác của Legions. Cuối cùng hòa bình cũng đến một quốc gia có chiều dài lịch sử chỉ biết đau đớn và cự khổ. Vào những năm sau đó, các quốc gia phát triển mạnh dưới con mắt tò mò của Nangin. Sau đó vào một buổi sáng thảm khốc, tất cả kết thúc. Ngọn núi lớn  Yunfeng Shan đã tỏa ra một chùm khói lớn, chống lại cơn thịnh nộ rằng lãnh thổ của Nangin bị nhấn chìm.</value>
+  </data>
+  <data name="lbl_conPage_03.Text" xml:space="preserve">
+    <value>Trong nhiều năm, Mọi người đã tin vào Legacy Võ lâm truyền kỳ và phần còn lại của Nangin đã thiệt mạng trong vụ đó, và với sự mất mát của Chúa Chen và  mảnh đất còn lại mà không có người lãnh đạo. Một lần nữa quân đoàn 12 đã xuất hiện, nhưng không có sức mạnh của các viên đá mà họ đã từng sở hữu, họ không còn có thể kiểm soát thủy triều của chiến tranh, và đất bắt đầu chảy máu cùng với những tiếng gào thét của người dân.</value>
+  </data>
+</root>

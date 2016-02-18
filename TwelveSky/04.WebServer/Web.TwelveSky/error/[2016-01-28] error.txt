@@ -1,0 +1,173 @@
+2016-01-28 21:43:21
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 21:43:34
+http://localhost:11590/web/board/write.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: BasePage.fnReturnPage(String pMovePage) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 100
+   위치: Web.TwelveSky.web.board.write.fnInitDefaultSetting() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 66
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-01-28 21:46:34
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 22:01:58
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 22:07:59
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 22:17:19
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 22:17:28
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 22:26:40
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 22:31:23
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 47
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-01-28 23:48:38
+http://localhost:11590/web/board/write.aspx?pMenu=1000007
+startIndex는 문자열의 길이보다 클 수 없습니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: Web.TwelveSky.web.board.write.fnSaveArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 104
+   위치: Web.TwelveSky.web.board.write.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 165
+--------------------------------------------------------------------------------
+
+2016-01-28 23:53:45
+http://localhost:11590/web/board/write.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 46
+   위치: Web.TwelveSky.web.board.write.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 23
+--------------------------------------------------------------------------------
+
+2016-01-28 23:56:07
+http://localhost:11590/web/board/write.aspx?pMenu=1000007
+startIndex는 문자열의 길이보다 클 수 없습니다.
+매개 변수 이름: startIndex
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: System.String.Substring(Int32 startIndex)
+   위치: Web.TwelveSky.web.board.write.fnSaveArticle()
+   위치: Web.TwelveSky.web.board.write.btnSave_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------
+
+2016-01-28 23:57:10
+http://localhost:11590/web/board/write.aspx?pMenu=1000007
+인덱스 및 길이는 문자열 내의 위치를 참조해야 합니다.
+매개 변수 이름: length
+--------------------------------------------------------------------------------
+   위치: System.String.Substring(Int32 startIndex, Int32 length)
+   위치: Web.TwelveSky.web.board.write.fnSaveArticle()
+   위치: Web.TwelveSky.web.board.write.btnSave_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------
+

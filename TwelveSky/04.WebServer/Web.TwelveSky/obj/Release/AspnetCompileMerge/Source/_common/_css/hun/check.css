@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+*{ margin:0;padding:0; -webkit-text-size-adjust:none;}
+/* CSS Document */
+/* Reset */
+html{} 
+body { background:#000; line-height:normal; font-size:12px; font-family:Verdana, Helvetica, Sans-serif; color:#333;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0;}
+ol, ul, li { list-style:none;}
+h1, h2, h3, h4, h5, h6 { font-size :normal 100%; line-height:normal;}
+form, fieldset, img { margin:0; padding: 0; border:0;}
+input,select, img { vertical-align:middle;}
+address, caption, em { font:normal;}
+hr, caption, legend, summary { display:none;}
+.png24 { _tmp:expression(setPng24(this));}
+a:link, 
+a:active, 
+a:visited { color:#ccc; text-decoration:none;}
+a:hover { color:#ccc;}
+h1,
+.none { display:none;}
+/* layout */
+.bg_12sky2	{ background:url(/_common/_images/check/bg_check_12sky2.jpg) center 0 no-repeat;}
+
+#wrap_check { margin:0 auto; width:1000px; height:873px;}
+
+.check_time { padding:43px 0 0 335px; height:222px;}
+.check_time p { margin-top:40px; *zoom:1;}
+.check_time p:after { content:""; clear:both; display:block;}
+.check_time p span { display:block; float:left; margin-right:3px; padding-top:10px; width:44px; height:48px; font-family:tahoma; font-size:35px; color:#d5d5d5; line-height:1; text-align:center; background:url(/images/gplayon/check/time_img01.jpg) no-repeat;}
+.check_time p span.type01 { margin:0; padding:0; width:18px; background:none;}
+.check_time p span.type02 { margin:0; padding:0 12px 0 8px; width:21px; background:none;}
+.check_time p.txt { margin-top:30px; color:#b0afaf; line-height:1.4em; font-weight:bold; }
+
+.check_join { position:relative; margin-top:18px;}
+.check_join ul { position:absolute; right:0; *zoom:1;}
+.check_join ul:after { content:""; clear:both; display:block;}			
+.check_join ul li { float:left;}
+.check_join ul li.join { margin-top:5px; padding:0 0 0 15px; height:25px; color:#d8d8d8; line-height:2em; background:#000;}
+
+#footer { padding:50px 0 70px 0; border-top:1px solid #2e2b2a; text-align:center; font-size:11px; color:#707070; }
+	#footer	span { color:#CCC; }
+	#footer	img { margin-right:15px; vertical-align:text-bottom; }

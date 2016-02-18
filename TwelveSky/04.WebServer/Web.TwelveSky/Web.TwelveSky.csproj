@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55CF9EF1-AE3E-4C57-8418-363F2EC84AB1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web.TwelveSky</RootNamespace>
+    <AssemblyName>Web.TwelveSky</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Recaptcha">
+      <HintPath>..\..\03.webAPI\Recaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Common\ucBanner.ascx" />
+    <Content Include="App_Common\ucCaptcha.ascx" />
+    <Content Include="App_Common\ucFooter.ascx" />
+    <Content Include="App_Common\ucHeader.ascx" />
+    <Content Include="App_Common\ucLeftMenu.ascx" />
+    <Content Include="error.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="masters.master" />
+    <Content Include="RecaptchaNet.Readme.txt" />
+    <Content Include="web\board\guide.aspx" />
+    <Content Include="web\board\items.aspx" />
+    <Content Include="web\board\list.aspx" />
+    <Content Include="web\board\view.aspx" />
+    <Content Include="web\board\write.aspx" />
+    <Content Include="web\email\findAccount.aspx" />
+    <Content Include="web\email\findPassword.aspx" />
+    <Content Include="web\guest\findId.aspx" />
+    <Content Include="web\guest\findPass.aspx" />
+    <Content Include="web\guest\findResult.aspx" />
+    <Content Include="web\guest\signup.aspx" />
+    <Content Include="web\guest\signupOk.aspx" />
+    <Content Include="web\policy.aspx" />
+    <Content Include="web\privacy\contatct.aspx" />
+    <Content Include="web\privacy\history.aspx" />
+    <Content Include="web\privacy\password.aspx" />
+    <Content Include="web\privacy\profile.aspx" />
+    <Content Include="web\privacy\view.aspx" />
+    <Content Include="web\privacy\withdraw.aspx" />
+    <Content Include="web\wsArticle.asmx" />
+    <Content Include="web\wsSignUp.asmx" />
+    <None Include="Properties\PublishProfiles\TwelveSkyWeb.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="web\uploadFile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Common\ucBanner.ascx.cs">
+      <DependentUpon>ucBanner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Common\ucBanner.ascx.designer.cs">
+      <DependentUpon>ucBanner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Common\ucCaptcha.ascx.cs">
+      <DependentUpon>ucCaptcha.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Common\ucCaptcha.ascx.designer.cs">
+      <DependentUpon>ucCaptcha.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Common\ucFooter.ascx.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Common\ucFooter.ascx.designer.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Common\ucHeader.ascx.cs">
+      <DependentUpon>ucHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Common\ucHeader.ascx.designer.cs">
+      <DependentUpon>ucHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Common\ucLeftMenu.ascx.cs">
+      <DependentUpon>ucLeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Common\ucLeftMenu.ascx.designer.cs">
+      <DependentUpon>ucLeftMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.cs">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masters.master.cs">
+      <DependentUpon>masters.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masters.master.designer.cs">
+      <DependentUpon>masters.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="web\board\guide.aspx.cs">
+      <DependentUpon>guide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\board\guide.aspx.designer.cs">
+      <DependentUpon>guide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\board\items.aspx.cs">
+      <DependentUpon>items.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\board\items.aspx.designer.cs">
+      <DependentUpon>items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\board\list.aspx.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\board\list.aspx.designer.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\board\view.aspx.cs">
+      <DependentUpon>view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\board\view.aspx.designer.cs">
+      <DependentUpon>view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\board\write.aspx.cs">
+      <DependentUpon>write.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\board\write.aspx.designer.cs">
+      <DependentUpon>write.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\email\findAccount.aspx.cs">
+      <DependentUpon>findAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\email\findAccount.aspx.designer.cs">
+      <DependentUpon>findAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\email\findPassword.aspx.cs">
+      <DependentUpon>findPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\email\findPassword.aspx.designer.cs">
+      <DependentUpon>findPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\guest\findId.aspx.cs">
+      <DependentUpon>findId.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\guest\findId.aspx.designer.cs">
+      <DependentUpon>findId.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\guest\findPass.aspx.cs">
+      <DependentUpon>findPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\guest\findPass.aspx.designer.cs">
+      <DependentUpon>findPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\guest\findResult.aspx.cs">
+      <DependentUpon>findResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\guest\findResult.aspx.designer.cs">
+      <DependentUpon>findResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\guest\signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\guest\signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\guest\signupOk.aspx.cs">
+      <DependentUpon>signupOk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\guest\signupOk.aspx.designer.cs">
+      <DependentUpon>signupOk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\policy.aspx.cs">
+      <DependentUpon>policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\policy.aspx.designer.cs">
+      <DependentUpon>policy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\privacy\contatct.aspx.cs">
+      <DependentUpon>contatct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\privacy\contatct.aspx.designer.cs">
+      <DependentUpon>contatct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\privacy\history.aspx.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\privacy\history.aspx.designer.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\privacy\password.aspx.cs">
+      <DependentUpon>password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\privacy\password.aspx.designer.cs">
+      <DependentUpon>password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\privacy\profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\privacy\profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\privacy\view.aspx.cs">
+      <DependentUpon>view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\privacy\view.aspx.designer.cs">
+      <DependentUpon>view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\privacy\withdraw.aspx.cs">
+      <DependentUpon>withdraw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\privacy\withdraw.aspx.designer.cs">
+      <DependentUpon>withdraw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\uploadFile.ashx.cs">
+      <DependentUpon>uploadFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="web\wsArticle.asmx.cs">
+      <DependentUpon>wsArticle.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="web\wsSignUp.asmx.cs">
+      <DependentUpon>wsSignUp.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\AuthorityAppTier\AuthorityAppTier.csproj">
+      <Project>{1E10407D-35D6-4AF1-B5B1-BF40C68A6E07}</Project>
+      <Name>AuthorityAppTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\TwelveWebAppTier\TwelveWebAppTier.csproj">
+      <Project>{A967DBC5-BA81-4AD5-93CD-F9B507F85D00}</Project>
+      <Name>TwelveWebAppTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Field.Framework\Field.Framework.Base\Field.Framework.Base.csproj">
+      <Project>{e5e147d3-6478-4ae9-af81-883c95051db4}</Project>
+      <Name>Field.Framework.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Field.Framework\Field.Framework.Web\Field.Framework.Web.csproj">
+      <Project>{746eb5d3-ed61-45ee-b1c1-7b2f44af641e}</Project>
+      <Name>Field.Framework.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Field.Framework\Field.Framework\Field.Framework.csproj">
+      <Project>{9F010F3B-E7CA-4099-8409-8CF68E6964D5}</Project>
+      <Name>Field.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Common\App_LocalResources\ucHeader.ascx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Common\App_LocalResources\ucFooter.ascx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\index.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\error.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\board\App_LocalResources\write.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\board\App_LocalResources\list.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\board\App_LocalResources\view.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\board\App_LocalResources\guide.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\board\App_LocalResources\items.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\email\App_LocalResources\findAccount.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\email\App_LocalResources\findPassword.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\privacy\App_LocalResources\profile.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\privacy\App_LocalResources\password.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\privacy\App_LocalResources\history.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\privacy\App_LocalResources\contatct.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\privacy\App_LocalResources\view.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\privacy\App_LocalResources\withdraw.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\guest\App_LocalResources\findId.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\guest\App_LocalResources\findPass.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web\guest\App_LocalResources\signup.aspx.resx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11590</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:11590/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

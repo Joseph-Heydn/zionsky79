@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_01.Text" xml:space="preserve">
+    <value>Khởi đầu, lãnh thổ Trung Quốc rất rộng lớn, và khi mọi người bắt đầu khám phá các vùng đất và họ nhận thấy vùng đất đó bao quanh bởi nhiều nhữn loại quái vật nguy hiểm. Họ tương trợ lẫn nhau để bảo vệ nhau khỏi những nguy hiểm ẩn trong vùng đất của họ, cuối cùng những người này họ cấu thành các thị tộc, họ lập lên các phe để bảo vệ lẫn nhau và họ khảo sát, thống trị tất cả các quái vật xung quanh.Đi từ sức mạnh tới sức mạnh!</value>
+  </data>
+  <data name="lbl_conPage_02.Text" xml:space="preserve">
+    <value>Ngay sau đó các phe phái riêng biệt nhận thức đươc sức mạnh của mình khi đó họ phát triển và mở rộng thị trấn và nhà cửa của họ, Họ hy vọn đè bẹp và chinh phục tất cả các phe phái khác, Họ chiến đấu cho đến khi họ là những người sống sót duy nhất và là phe chiếm ưu thế nhất!</value>
+  </data>
+  <data name="lbl_conPage_03.Text" xml:space="preserve">
+    <value>Đầu tiên là thế mạnh của đế quốc rồng. Họ là một nhóm người được hình thành trong gia tộc, chiến binh trong game. Họ di cư từ các vùng lãnh thổ về phía đông, gia tộc rồng Imperial là chủ sở hữu của thanh kiếm nặng, thanh kiếm ánh sáng, và có độ dài ngắn khác nhau, chính là vũ khí bí ẩn của đá cẩm thạch. Những chiến binh khốc liệt sử dụng tinh thần indominitable của họ với độ chính xác chết người. Họ tự hào và rất trung thành, những chiến binh sẽ sẵn sàng chiến đấu và hy sinh còn hơn là đầu hàng kẻ thù. Thủ lĩnh của họ, Chúa Yudi, là một trong số ít những người đã nhìn thấy sức mạnh hùng vĩ của TwelveSky tuyệt vời và là nhân chứng sống để kể lại câu chuyện.</value>
+  </data>
+  <data name="lbl_conPage_04.Text" xml:space="preserve">
+    <value>Việc thứ hai của kế hoạch này là tránh xa khỏi những vùng đất hoang lạnh phía Bắc, họ được biết đến chỉ như bộ lạc rắn . Dưới sự chỉ huy rất đán sợ của nhứng bóng ma và đầy ám ảnh Shadowless kim Chúa, Seto họ là bậc thầy của những vũ khí lớn . Những chiến binh mạnh mẽ có thể đưa ra những phương thức thao tác và rất điêu luyện đó là dùng sóng âm thanh để tàng hình tra tấn và diệt nạn nhân trên một khoảng cách lớn.</value>
+  </data>
+  <data name="lbl_conPage_05.Text" xml:space="preserve">
+    <value>Cuối cùng các gia tộc lớn đến từ các vùng miền núi và cằn cỗi ở phia tây, nơi đó ít người dám đi. Họ được gọi là sức mạnh móng vuốt của hổ,Tên của họ mang lại cho người nghe một sự sợ hãi và không có bất kỳ ai dám nói tên của họ lớn tiếng.Những chiến binh hùng mạnh đó là một sưc sức mạnh phi thường! Không giống như gia tộc rắn, chiều cao của những chiến binh cao hơn nhiều so về vật lý tầm cỡ của một người. Có thể vận dụng giáo khổng lồ và lưỡi đao với một bàn tay duy nhất. Rất nhiều người đàn ông đã thiệt mạng do họ quá tự tin khi chiến đấu với những chiến binh” tiger”, sức mạnh của họ được ví như một con hổ, "mạnh mẽ và chính xác không ai có thể thoát được. Họ còn thách thức Reni vua chúa quỷ một cuộc thách đấu."</value>
+  </data>
+  <data name="lbl_conPage_06.Text" xml:space="preserve">
+    <value>Một bí ẩn cuối cùng không giải thích được vẫn cần sự  khám phá và nghiên cứu. Nhiều nhiều năm trước đây, trong quá khứ xa xưa đến nay đã có một thảm họa gây ra cái chết của một quốc gia hùng mạnh, và tên của họ đã trở thành một huyền thoại. Khi bầu trời đã bị phá hủy trong một thời gian dài, mặt đất mở và tỏa ra một luồng khói cao bay lên trời khi đó có sự gặp gỡ của khói và mặt trời "Cả một vùng trời bi che khuất bởi luồng khói đen."</value>
+  </data>
+  <data name="lbl_conPage_07.Text" xml:space="preserve">
+    <value>Người cổ sưa đã tìm kiếm và điều tra ra phần còn lại của gia tộc bầu trời đã thiệt mạng trong vụ nổ đó , và với sự mất đi của Chúa Chen do đó vùng đất bị bỏ lại không có một người lãnh đạo. Bây giờ đất bắt đầu chảy máu khi ba gia tộc chiến đấu cho uy quyền và những tiếng kêu tiếng hét của sự chết chóc.</value>
+  </data>
+  <data name="lbl_conPage_08.Text" xml:space="preserve">
+    <value>"TwelveSky2 WSP" là một adrenaline- trò chơi có quy mô lớn rất sống động và thú vị,chơi trực tuyến (MMORPG). Diễn ra vào thờiTrung Quốc cổ đại, người chơi được bước vào một cuộc chiến tay ba. Tập trung vào reemergence và một phe mới, người chơi phải chiến đấu cho vinh dự của anh em của họ. Đóng trong võ nghệ,kỹ thuật, exotic vũ khí, áo giáp, và vật nuôi, một hệ thống chiến đấu mạnh mẽ,  Toàn bộ "TwelveSky2 WSP" là một những trò chơi mang tinh tự do cao, là dòng sản phẩm tốt nhất, Nó còn tạo cho người chơi có những cảm xúc và kinh nghiệm cao! "</value>
+  </data>
+</root>

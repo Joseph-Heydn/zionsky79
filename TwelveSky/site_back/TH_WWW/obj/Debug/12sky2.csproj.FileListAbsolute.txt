@@ -1,0 +1,6 @@
+E:\프로젝트\개인플젝\TwelveSky\TH_WWW\bin\12sky2.dll.config
+E:\프로젝트\개인플젝\TwelveSky\TH_WWW\bin\12sky2.dll
+E:\프로젝트\개인플젝\TwelveSky\TH_WWW\bin\12sky2.pdb
+E:\프로젝트\개인플젝\TwelveSky\TH_WWW\obj\Debug\12sky2.csprojResolveAssemblyReference.cache
+E:\프로젝트\개인플젝\TwelveSky\TH_WWW\obj\Debug\12sky2.dll
+E:\프로젝트\개인플젝\TwelveSky\TH_WWW\obj\Debug\12sky2.pdb

@@ -1,0 +1,228 @@
+2016-02-04 22:56:15
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 110
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 129
+--------------------------------------------------------------------------------
+
+2016-02-04 23:12:32
+http://localhost:11590/web/board/write.aspx?pMenu=1000001&pReturn=/web/board/list.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 333
+--------------------------------------------------------------------------------
+
+2016-02-04 23:12:36
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cOrderBy'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control6(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 45
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-04 23:12:39
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cOrderBy'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control6(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 45
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-04 23:14:24
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cOrderBy'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control6(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 45
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-04 23:28:52
+http://localhost:11590/web/board/write.aspx?pMenu=1000001&pReturn=/web/board/list.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 333
+--------------------------------------------------------------------------------
+
+2016-02-04 23:29:17
+http://localhost:11590/web/board/write.aspx?pMenu=1000001&pReturn=/web/board/list.aspx?pMenu=1000007
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.board.write.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\board\write.aspx.cs:줄 333
+--------------------------------------------------------------------------------
+
+2016-02-04 23:29:20
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cOrderBy'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control6(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 45
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-04 23:32:37
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cOrderBy'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control6(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 45
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-04 23:33:20
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cImageUrl'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control7(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 46
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+
+2016-02-04 23:36:22
+http://localhost:11590/index.aspx
+데이터 바인딩: 'System.Data.DataRowView'에 이름이 'cTitle'인 속성이 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   위치: System.Web.UI.DataBinder.Eval(Object container, String expression)
+   위치: System.Web.UI.TemplateControl.Eval(String expression)
+   위치: ASP.index_aspx.__DataBind__control7(Object sender, EventArgs e) 파일 e:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx:줄 48
+   위치: System.Web.UI.Control.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.Control.DataBindChildren()
+   위치: System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   위치: System.Web.UI.Control.DataBind()
+   위치: System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   위치: System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   위치: System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   위치: System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   위치: System.Web.UI.WebControls.Repeater.DataBind()
+   위치: Web.TwelveSky.index.fnDisplayMainContents() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 82
+   위치: Web.TwelveSky.index.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 25
+--------------------------------------------------------------------------------
+

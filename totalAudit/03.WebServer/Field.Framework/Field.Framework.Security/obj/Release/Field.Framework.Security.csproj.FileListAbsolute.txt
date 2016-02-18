@@ -1,0 +1,8 @@
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\bin\Release\Field.Framework.Security.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\bin\Release\Field.Framework.Security.pdb
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\bin\Release\Field.Framework.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\bin\Release\Newtonsoft.Json.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\bin\Release\Field.Framework.pdb
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\obj\Release\Field.Framework.Security.csprojResolveAssemblyReference.cache
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\obj\Release\Field.Framework.Security.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Security\obj\Release\Field.Framework.Security.pdb

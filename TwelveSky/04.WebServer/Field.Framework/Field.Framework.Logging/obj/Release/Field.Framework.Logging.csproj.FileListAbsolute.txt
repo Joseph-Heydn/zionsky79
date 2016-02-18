@@ -1,0 +1,5 @@
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Logging\bin\Release\Field.Framework.Logging.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Logging\bin\Release\Field.Framework.Logging.pdb
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Logging\obj\Release\Field.Framework.Logging.csprojResolveAssemblyReference.cache
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Logging\obj\Release\Field.Framework.Logging.dll
+E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Logging\obj\Release\Field.Framework.Logging.pdb

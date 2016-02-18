@@ -1,0 +1,66 @@
+﻿a.MoveMonth:link {
+	color: #000000;
+	text-decoration: none;
+}
+a.MoveMonth:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a.MoveMonth:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+#DPContainer {
+	position: absolute;
+}
+
+#DPTable {
+	border: 1px solid black;
+}
+
+#DPTable TD, #DPTable TH {
+	font-size: 9pt;
+}
+
+#DPTable SELECT {
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+
+#DPSelector {
+	background-color: #0a246a;
+	color: #ffffff;
+}
+
+#DPSelector TD {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#DPToday, .DPDate, .DPDate2 {
+	cursor: pointer;
+}
+
+.DPDate, .DPDate2 {
+	text-align: center;
+}
+
+.DPDate2 {
+	background-color: #eeeeee;
+	color: #666666;
+}
+
+#DPCalendar TH {
+	color: #0a246a;
+	height: 1px;
+}
+
+INPUT.DateInput {
+	font-size: 9pt;
+	font-family: 돋움,돋움체,verdana;
+	background-color: #f2f2f2;
+	border: 1px solid #dfdfdf;
+	color: #6b6b6b;
+	cursor: pointer;
+}

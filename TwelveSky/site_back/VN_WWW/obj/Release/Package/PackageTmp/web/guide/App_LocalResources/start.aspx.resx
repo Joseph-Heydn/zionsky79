@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_01.Text" xml:space="preserve">
+    <value>Cài đặt và đăng nhập</value>
+  </data>
+  <data name="lbl_conPage_02.Text" xml:space="preserve">
+    <value>Chào mừng bạn đến TwelveSky2 WSP!&lt;br/&gt;
+Bạn có thể bắt đầu bằng cách tải các trò chơi về ở đây: TwelveSky2 WSP Download Page</value>
+  </data>
+  <data name="lbl_conPage_03.Text" xml:space="preserve">
+    <value>- Logging In -</value>
+  </data>
+  <data name="lbl_conPage_04.Text" xml:space="preserve">
+    <value>Sau khi tải về và cài đặt các trò chơi,&lt;br/&gt;bạn sẵn sàng để bắt đầu chơi!</value>
+  </data>
+  <data name="lbl_conPage_05.Text" xml:space="preserve">
+    <value>Bạn cần phải đăng nhập tải khoản 12sky2 WSP. Bạn có thể đăng ký một tài khoản miễn phí tại www.12sky2-ph.com.</value>
+  </data>
+  <data name="lbl_conPage_06.Text" xml:space="preserve">
+    <value>Hãy nhớ, Tài khoản và mật khẩu của bạn bằng chữ in hoa hay chữ in thường!</value>
+  </data>
+  <data name="lbl_conPage_07.Text" xml:space="preserve">
+    <value>Tạo nhân vật</value>
+  </data>
+  <data name="lbl_conPage_08.Text" xml:space="preserve">
+    <value>Để tạo nên một nhân vật có mấy cách lựa chon sau đây. Bạn có thể tùy chỉnh diện mạo nhân vật của bạn, nhưng đồng thời bạn phải chọn một dảng phái(Faction)</value>
+  </data>
+  <data name="lbl_conPage_09.Text" xml:space="preserve">
+    <value>Mỗi một phe đều có điểm mạnh và điểm yếu khác nhau, cũng như các loại vũ khí khác nhau. Tuy nhiên mỗi phe có ba loại vũ khí. Trong khi bạn chọn vũ khí ơ màn hình này, bạn vẫn có thể mua và sử dụng một loại vũ khí khác.</value>
+  </data>
+  <data name="lbl_conPage_10.Text" xml:space="preserve">
+    <value>1. Tấn công – Sức mạnh tấn công mạnh, nhưng phòng thủ lại yếu.</value>
+  </data>
+  <data name="lbl_conPage_11.Text" xml:space="preserve">
+    <value>2. Phòng thủ -Sự Phòng thủ mạnh, nhưng tấn công lại yếu</value>
+  </data>
+  <data name="lbl_conPage_12.Text" xml:space="preserve">
+    <value>3. Phạm vi -  Skill có thể được sử dụng trong phạm vi</value>
+  </data>
+  <data name="lbl_conPage_13.Text" xml:space="preserve">
+    <value>Dao diện người dùng</value>
+  </data>
+  <data name="lbl_conPage_14.Text" xml:space="preserve">
+    <value>1. Player Status Window: Shows current Health, Chi, and Experience percent.</value>
+  </data>
+  <data name="lbl_conPage_15.Text" xml:space="preserve">
+    <value>2. Zone Mini-Map: The mini-map shows current location, as well as NPC, quests, monsters, and party members. The map can be hidden with the arrow button, and zoomed in/out with the +/- keys.</value>
+  </data>
+  <data name="lbl_conPage_16.Text" xml:space="preserve">
+    <value>3. System Messages: System messages will appear in this window. This includes Battle Grounds information, PvP and PvE damage/defense, as well as Guild system messages.</value>
+  </data>
+  <data name="lbl_conPage_17.Text" xml:space="preserve">
+    <value>4. Player Chat: Chat from other players will appear in this window.</value>
+  </data>
+  <data name="lbl_conPage_18.Text" xml:space="preserve">
+    <value>5. Mini Menu: The Mini Menu offers quick shortcuts to often-used windows, such as Character Stats, Inventory, Guild Info, etc.</value>
+  </data>
+  <data name="lbl_conPage_19.Text" xml:space="preserve">
+    <value>6. Shortcut Bar: Skills, Pills/Tablets, and Emotes can be assigned to this bar, enabling the associated hotkey.</value>
+  </data>
+  <data name="lbl_conPage_20.Text" xml:space="preserve">
+    <value>7. Quick Menu: Game Help can be opened with the ? button. There are also Faction-related windows available through this menu, as well as the Item Mall.</value>
+  </data>
+  <data name="lbl_conPage_21.Text" xml:space="preserve">
+    <value>8. Party Information: Shows Party member levels, names, and HP/Chi status.</value>
+  </data>
+  <data name="lbl_conPage_22.Text" xml:space="preserve">
+    <value>9. Pet Status Window: Shows Pet's Activity and Exp growth.</value>
+  </data>
+</root>

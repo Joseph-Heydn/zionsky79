@@ -1,0 +1,623 @@
+2016-02-11 00:00:46
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:02:40
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:03:36
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:08:11
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:23:17
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:24:24
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:25:13
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:28:48
+http://localhost:11590/web/privacy/password.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 35
+   위치: Web.TwelveSky.web.privacy.password.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 00:32:40
+http://localhost:11590/web/privacy/password.aspx?m=1000019
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.btnModifyPassword_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 103
+--------------------------------------------------------------------------------
+
+2016-02-11 00:32:51
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogout() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 129
+   위치: Web.TwelveSky.index.btnLogout_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 150
+--------------------------------------------------------------------------------
+
+2016-02-11 00:32:57
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 123
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-11 00:33:07
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 123
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-11 00:34:33
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogout() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 129
+   위치: Web.TwelveSky.index.btnLogout_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 150
+--------------------------------------------------------------------------------
+
+2016-02-11 00:34:41
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 123
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-11 00:38:43
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 123
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-11 00:39:01
+http://localhost:11590/index.aspx
+ [3]
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 120
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 138
+--------------------------------------------------------------------------------
+
+2016-02-11 00:40:20
+http://localhost:11590/index.aspx
+3
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 119
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 00:42:05
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 122
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 00:42:43
+http://localhost:11590/web/privacy/password.aspx?m=1000019
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.password.btnModifyPassword_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\password.aspx.cs:줄 103
+--------------------------------------------------------------------------------
+
+2016-02-11 01:12:51
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 122
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:13:27
+http://localhost:11590/index.aspx
+3
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 119
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:13:33
+http://localhost:11590/index.aspx
+3
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 119
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:13:39
+http://localhost:11590/index.aspx
+3
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 119
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:13:45
+http://localhost:11590/index.aspx
+3
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 119
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:13:54
+http://localhost:11590/index.aspx
+3
+--------------------------------------------------------------------------------
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 119
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:15:03
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 122
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 01:17:06
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 122
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 11:34:19
+http://localhost:11590/web/privacy/history.aspx
+구문 오류: '=' 연산자 뒤에 피연산자가 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.ExpressionParser.Parse()
+   위치: System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   위치: System.Data.DataTable.Select(String filterExpression)
+   위치: MenuList.fnGetGroups(String pMenuNo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Library\MenuList.cs:줄 119
+   위치: Web.TwelveSky.App_Common.ucLeftMenu.fnDisplayMenu() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\App_Common\ucLeftMenu.ascx.cs:줄 41
+   위치: Web.TwelveSky.App_Common.ucLeftMenu.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\App_Common\ucLeftMenu.ascx.cs:줄 26
+--------------------------------------------------------------------------------
+
+2016-02-11 11:34:31
+http://localhost:11590/index.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.index.fnLogin() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 122
+   위치: Web.TwelveSky.index.btnLogin_OnClick(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\index.aspx.cs:줄 137
+--------------------------------------------------------------------------------
+
+2016-02-11 11:34:37
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 195
+--------------------------------------------------------------------------------
+
+2016-02-11 11:34:40
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 195
+--------------------------------------------------------------------------------
+
+2016-02-11 11:34:42
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 195
+--------------------------------------------------------------------------------
+
+2016-02-11 11:35:02
+http://localhost:11590/web/privacy/profile.aspx?m=1000018
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.profile.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\profile.aspx.cs:줄 195
+--------------------------------------------------------------------------------
+
+2016-02-11 12:11:26
+http://localhost:11590/web/privacy/history.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.history.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\history.aspx.cs:줄 45
+   위치: Web.TwelveSky.web.privacy.history.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\history.aspx.cs:줄 19
+--------------------------------------------------------------------------------
+
+2016-02-11 14:04:00
+http://localhost:11590/web/privacy/contatct.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 37
+   위치: Web.TwelveSky.web.privacy.contatct.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 20
+--------------------------------------------------------------------------------
+
+2016-02-11 18:43:26
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+'cRef' 열은 Table 테이블에 속하지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.DataRow.GetDataColumn(String columnName)
+   위치: System.Data.DataRow.get_Item(String columnName)
+   위치: Web.TwelveSky.web.privacy.contatct.<>c.<fnDisplayCategory>b__5_1(String vText, DataRow vRow) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 93
+   위치: System.Linq.Enumerable.Aggregate[TSource,TAccumulate](IEnumerable`1 source, TAccumulate seed, Func`3 func)
+   위치: Web.TwelveSky.web.privacy.contatct.fnDisplayCategory() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 91
+   위치: Web.TwelveSky.web.privacy.contatct.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 24
+--------------------------------------------------------------------------------
+
+2016-02-11 22:32:23
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: fileProcess.fnImageFiles(String pPath, String pMenuNo, String[] pFileInfo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Board\fileProcess.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.contatct.fnSaveArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 126
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 207
+--------------------------------------------------------------------------------
+
+2016-02-11 22:32:27
+http://localhost:11590/web/privacy/contatct.aspx?m={0}
+입력 문자열의 형식이 잘못되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Convert.ToInt32(String value)
+   위치: BasePage.BasePage_Load() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 38
+   위치: BasePage.OnInit(EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\BasePage\BasePage.cs:줄 22
+--------------------------------------------------------------------------------
+
+2016-02-11 22:32:27
+http://localhost:11590/web/privacy/contatct.aspx?m={0}
+11 위치의 '{' 토큰을 해석할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.ExpressionParser.Scan()
+   위치: System.Data.ExpressionParser.Parse()
+   위치: System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   위치: System.Data.DataTable.Select(String filterExpression)
+   위치: MenuList.fnMenuName(String pMenuNo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Library\MenuList.cs:줄 139
+   위치: Web.TwelveSky.web.privacy.contatct.fnInitDefaultSetting() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 56
+   위치: Web.TwelveSky.web.privacy.contatct.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 22
+--------------------------------------------------------------------------------
+
+2016-02-11 22:32:27
+http://localhost:11590/web/privacy/contatct.aspx?m={0}
+11 위치의 '{' 토큰을 해석할 수 없습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.ExpressionParser.Scan()
+   위치: System.Data.ExpressionParser.Parse()
+   위치: System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   위치: System.Data.DataTable.Select(String filterExpression)
+   위치: MenuList.fnGetGroups(String pMenuNo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Library\MenuList.cs:줄 119
+   위치: Web.TwelveSky.App_Common.ucLeftMenu.fnDisplayMenu() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\App_Common\ucLeftMenu.ascx.cs:줄 41
+   위치: Web.TwelveSky.App_Common.ucLeftMenu.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\App_Common\ucLeftMenu.ascx.cs:줄 26
+--------------------------------------------------------------------------------
+
+2016-02-11 22:50:55
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+'cWrite' 열은 Table 테이블에 속하지 않습니다.
+--------------------------------------------------------------------------------
+   위치: System.Data.DataRow.GetDataColumn(String columnName)
+   위치: System.Data.DataRow.get_Item(String columnName)
+   위치: Web.TwelveSky.web.privacy.contatct.fnInitDefaultSetting() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 58
+   위치: Web.TwelveSky.web.privacy.contatct.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 22
+--------------------------------------------------------------------------------
+
+2016-02-11 22:52:50
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+인덱스가 배열 범위를 벗어났습니다.
+--------------------------------------------------------------------------------
+   위치: fileProcess.fnImageFiles(String pPath, String pMenuNo, String[] pFileInfo) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Base\Board\fileProcess.cs:줄 31
+   위치: Web.TwelveSky.web.privacy.contatct.fnSaveArticle() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 124
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 203
+--------------------------------------------------------------------------------
+
+2016-02-11 22:58:19
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 205
+--------------------------------------------------------------------------------
+
+2016-02-11 23:04:53
+http://localhost:11590/web/privacy/contatct.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.contatct.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-11 23:10:07
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 203
+--------------------------------------------------------------------------------
+
+2016-02-11 23:29:19
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 203
+--------------------------------------------------------------------------------
+
+2016-02-11 23:29:52
+http://localhost:11590/web/privacy/contatct.aspx
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.fnInitParameter() 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 40
+   위치: Web.TwelveSky.web.privacy.contatct.Page_Load(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 21
+--------------------------------------------------------------------------------
+
+2016-02-11 23:32:16
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 203
+--------------------------------------------------------------------------------
+
+2016-02-11 23:33:51
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 203
+--------------------------------------------------------------------------------
+
+2016-02-11 23:37:38
+http://localhost:11590/web/privacy/contatct.aspx?m=1000021
+스레드가 중단되었습니다.
+--------------------------------------------------------------------------------
+   위치: System.Threading.Thread.AbortInternal()
+   위치: System.Threading.Thread.Abort(Object stateInfo)
+   위치: System.Web.HttpResponse.AbortCurrentThread()
+   위치: System.Web.HttpResponse.End()
+   위치: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   위치: System.Web.HttpResponse.Redirect(String url)
+   위치: Web.TwelveSky.web.privacy.contatct.btnSave_Click(Object sender, EventArgs e) 파일 E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Web.TwelveSky\web\privacy\contatct.aspx.cs:줄 203
+--------------------------------------------------------------------------------
+

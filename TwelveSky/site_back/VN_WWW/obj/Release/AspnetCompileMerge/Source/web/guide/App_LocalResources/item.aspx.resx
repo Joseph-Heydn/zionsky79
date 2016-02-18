@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_01.Text" xml:space="preserve">
+    <value>Hạng mục mua</value>
+  </data>
+  <data name="lbl_conPage_02.Text" xml:space="preserve">
+    <value>Có hai hạng mục mua cơ bản. Hạng mục thứ nhất là thông qua NPCs. Người chơi có thể sử dụng bạc(Trong trò chơi vật nuôi) Để mua trang bị cơ bản từ những người bán hàng trong thị trấn. Hạng mục thứ hai là săn bắn và giết quái vật để có được các vật phẩm hàng hóa</value>
+  </data>
+  <data name="lbl_conPage_03.Text" xml:space="preserve">
+    <value>Phương pháp khác</value>
+  </data>
+  <data name="lbl_conPage_04.Text" xml:space="preserve">
+    <value>Người chơi có thể sử dụng hai  phương pháp ở trên, hoặc là người chơi cũng có thể đạt được các hạng mục thông qua việc giao dịch với người chơi khác.</value>
+  </data>
+  <data name="lbl_conPage_05.Text" xml:space="preserve">
+    <value>Cấp hạng hiếm</value>
+  </data>
+  <data name="lbl_conPage_06.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Common:&lt;/strong&gt;  Biểu thị bằng chữ màu trắng, chất lượng thấp nhất(items thông thường mua taị NPC)</value>
+  </data>
+  <data name="lbl_conPage_07.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Unique:&lt;/strong&gt;  Thể hiện bằng văn bản mau cam, chất lượng vừa phải</value>
+  </data>
+  <data name="lbl_conPage_08.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Rare:&lt;/strong&gt;  Thể hiện bằng văn bản màu vàng, chất lượng cao</value>
+  </data>
+  <data name="lbl_conPage_09.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Elite:&lt;/strong&gt;  Thể hiện bằng văn bản màu tím, chất lượng cao nhất.</value>
+  </data>
+  <data name="lbl_conPage_10.Text" xml:space="preserve">
+    <value>Hạng mục cải tiến</value>
+  </data>
+  <data name="lbl_conPage_11.Text" xml:space="preserve">
+    <value>Items Mê hoặc</value>
+  </data>
+  <data name="lbl_conPage_12.Text" xml:space="preserve">
+    <value>Trang bị bùa cho nhân vật để mang lại một số tiền thưởng cao. Thành công dẫn đến sự gia tăng % dựa trên dữ liệu, nhưng thất bại có thể dẫn đến mất 3% và thậm chí phá hủy hạng mục.</value>
+  </data>
+  <data name="lbl_conPage_13.Text" xml:space="preserve">
+    <value>NPC: Blacksmith</value>
+  </data>
+  <data name="lbl_conPage_14.Text" xml:space="preserve">
+    <value>Enchant tối đa: 120%</value>
+  </data>
+  <data name="lbl_conPage_15.Text" xml:space="preserve">
+    <value>Nguyên liệu mê hoặc</value>
+  </data>
+  <data name="lbl_conPage_16.Text" xml:space="preserve">
+    <value>3% - Tin</value>
+  </data>
+  <data name="lbl_conPage_17.Text" xml:space="preserve">
+    <value>6% - Dark Steel</value>
+  </data>
+  <data name="lbl_conPage_18.Text" xml:space="preserve">
+    <value>9% - Black Steel</value>
+  </data>
+  <data name="lbl_conPage_19.Text" xml:space="preserve">
+    <value>12% - Steel of Eternity</value>
+  </data>
+  <data name="lbl_conPage_20.Text" xml:space="preserve">
+    <value>Hạng mục kết hợp</value>
+  </data>
+  <data name="lbl_conPage_21.Text" xml:space="preserve">
+    <value>Một phương pháp cải tiến mục được kết hợp với các mặt hàng. Các mặt hàng quý hiếm hoặc Elite có thể được kết hợp với các mục khác cùng loại quý hiếm ( Mục Elite cũng có thể kết hợp với các mục quý hiếm một bước thấp hơn). NPC: Thợ rèn</value>
+  </data>
+  <data name="lbl_conPage_22.Text" xml:space="preserve">
+    <value>* NOTE *</value>
+  </data>
+  <data name="lbl_conPage_23.Text" xml:space="preserve">
+    <value>“Các trang bị được kết hợp ở mục này không thể thay thế hạng mục khác và cũng không thể kết hợp với % của bùa”</value>
+  </data>
+  <data name="lbl_conPage_24.Text" xml:space="preserve">
+    <value>Kế hợp thiết bị tăng sau:</value>
+  </data>
+  <data name="lbl_conPage_25.Text" xml:space="preserve">
+    <value>Weapons: Damage and Chance to hit</value>
+  </data>
+  <data name="lbl_conPage_26.Text" xml:space="preserve">
+    <value>Armor: Defense and Dodge</value>
+  </data>
+  <data name="lbl_conPage_27.Text" xml:space="preserve">
+    <value>Gloves: Defense and Chance to hit</value>
+  </data>
+  <data name="lbl_conPage_28.Text" xml:space="preserve">
+    <value>Boots: Defense and Dodge</value>
+  </data>
+  <data name="lbl_conPage_29.Text" xml:space="preserve">
+    <value>Rings: Elemental Damage</value>
+  </data>
+  <data name="lbl_conPage_30.Text" xml:space="preserve">
+    <value>Necklaces: Elemental Defense</value>
+  </data>
+  <data name="lbl_conPage_31.Text" xml:space="preserve">
+    <value>Capes: Defense</value>
+  </data>
+  <data name="lbl_conPage_32.Text" xml:space="preserve">
+    <value>Hạng mục Công nghệ</value>
+  </data>
+  <data name="lbl_conPage_33.Text" xml:space="preserve">
+    <value>Công nghệ là bao gồm việc sử dụng nhiều mặt hàng chất lượng thấp để tạo ra một mặt hàng chất lượng cao hơn.</value>
+  </data>
+  <data name="lbl_conPage_34.Text" xml:space="preserve">
+    <value>NPCs:</value>
+  </data>
+  <data name="lbl_conPage_35.Text" xml:space="preserve">
+    <value>Blacksmith - Enchanting Materials and Jades</value>
+  </data>
+  <data name="lbl_conPage_36.Text" xml:space="preserve">
+    <value>Elder - Archives</value>
+  </data>
+  <data name="lbl_conPage_37.Text" xml:space="preserve">
+    <value>Red Jade</value>
+  </data>
+  <data name="lbl_conPage_38.Text" xml:space="preserve">
+    <value>Purple Jade x2</value>
+  </data>
+  <data name="lbl_conPage_39.Text" xml:space="preserve">
+    <value>Random Ench. Material</value>
+  </data>
+  <data name="lbl_conPage_40.Text" xml:space="preserve">
+    <value>Tin x4</value>
+  </data>
+  <data name="lbl_conPage_41.Text" xml:space="preserve">
+    <value>Heaven's Repulsion</value>
+  </data>
+  <data name="lbl_conPage_42.Text" xml:space="preserve">
+    <value>Gold Archive</value>
+  </data>
+  <data name="lbl_conPage_43.Text" xml:space="preserve">
+    <value>Wood Archive</value>
+  </data>
+  <data name="lbl_conPage_44.Text" xml:space="preserve">
+    <value>Lightning Archive</value>
+  </data>
+  <data name="lbl_conPage_45.Text" xml:space="preserve">
+    <value>Fire Archive</value>
+  </data>
+  <data name="lbl_conPage_46.Text" xml:space="preserve">
+    <value>Heaven's Flow</value>
+  </data>
+  <data name="lbl_conPage_47.Text" xml:space="preserve">
+    <value>Damnation Archive</value>
+  </data>
+  <data name="lbl_conPage_48.Text" xml:space="preserve">
+    <value>Phantom Archive</value>
+  </data>
+  <data name="lbl_conPage_49.Text" xml:space="preserve">
+    <value>Soul Archive</value>
+  </data>
+  <data name="lbl_conPage_50.Text" xml:space="preserve">
+    <value>Star Archive</value>
+  </data>
+  <data name="lbl_conPage_51.Text" xml:space="preserve">
+    <value>Mục lên/ xuống</value>
+  </data>
+  <data name="lbl_conPage_52.Text" xml:space="preserve">
+    <value>Ở TwelveSky2 WSP Có quyền lựa chọn để tăng hoặc giảm mức độ của một Item. Sẽ là rất hữu dụng  nếu bạn dành thời gian, bạc, để nỗ lực cải thiện thiết bị của bạn, hoặc là bạn trang bị cấp độ cao cho nhân vật của ban.</value>
+  </data>
+  <data name="lbl_conPage_53.Text" xml:space="preserve">
+    <value>NPC: người ăn xin</value>
+  </data>
+  <data name="lbl_conPage_54.Text" xml:space="preserve">
+    <value>Yêu cầu Jade tím hay đỏ</value>
+  </data>
+  <data name="lbl_conPage_55.Text" xml:space="preserve">
+    <value>Item hiếm là (Item màu vàng) hoặc Elite ( Item màu tím) tùy thuộc vào phí tổn để thay đổi mức tăng của Item.</value>
+  </data>
+  <data name="lbl_conPage_56.Text" xml:space="preserve">
+    <value>Để nâng cấp một mục, phải có ít nhất 12% Enchant và ít nhất 1Stage kết hợp.</value>
+  </data>
+  <data name="lbl_conPage_57.Text" xml:space="preserve">
+    <value>Nếu nâng cấp thành công thì sẽ loại bỏ một nủa của CS. Purple Jades cũng sẽ loại bỏ tới 33% của Enchan hiện tại.</value>
+  </data>
+</root>

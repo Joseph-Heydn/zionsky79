@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_01.Text" xml:space="preserve">
+    <value>Kailan Fortress</value>
+  </data>
+  <data name="lbl_conPage_02.Text" xml:space="preserve">
+    <value>Gate master Rei&lt;br/&gt;- Zone Travel</value>
+  </data>
+  <data name="lbl_conPage_03.Text" xml:space="preserve">
+    <value>Teleportation, Nhân vật ngân hàng.</value>
+  </data>
+  <data name="lbl_conPage_04.Text" xml:space="preserve">
+    <value>Blacksmith Hetoseh&lt;br/&gt;- Smithy</value>
+  </data>
+  <data name="lbl_conPage_05.Text" xml:space="preserve">
+    <value>Mua Bán Items, chế tạo sức mạnh của vũ khí</value>
+  </data>
+  <data name="lbl_conPage_06.Text" xml:space="preserve">
+    <value>Beggar Xiao Sun&lt;br/&gt;- Antiquities</value>
+  </data>
+  <data name="lbl_conPage_07.Text" xml:space="preserve">
+    <value>Nâng cấp hoặc hạ cấp mức độ thiết bị</value>
+  </data>
+  <data name="lbl_conPage_08.Text" xml:space="preserve">
+    <value>Agent Sang&lt;br/&gt;- Commissioned Sales</value>
+  </data>
+  <data name="lbl_conPage_09.Text" xml:space="preserve">
+    <value>Mua hoặc bán hàng hóa</value>
+  </data>
+  <data name="lbl_conPage_10.Text" xml:space="preserve">
+    <value>Tailor Sahn&lt;br/&gt;- Protective Equipment</value>
+  </data>
+  <data name="lbl_conPage_11.Text" xml:space="preserve">
+    <value>Mua Bán Items, và bảo quản Enchant</value>
+  </data>
+  <data name="lbl_conPage_12.Text" xml:space="preserve">
+    <value>Guard Captain Kyoku&lt;br/&gt;- PvP Travel</value>
+  </data>
+  <data name="lbl_conPage_13.Text" xml:space="preserve">
+    <value>Mua sức khỏe Chi và thuốc viên, Return Scrolls, và trái cây Heavenly</value>
+  </data>
+  <data name="lbl_conPage_14.Text" xml:space="preserve">
+    <value>Herbalist Terokan&lt;br/&gt;- Pharmaceuticals</value>
+  </data>
+  <data name="lbl_conPage_15.Text" xml:space="preserve">
+    <value>Mua sức khỏe Chi và thuốc viên, Return Scrolls, và trái cây Heavenly</value>
+  </data>
+  <data name="lbl_conPage_16.Text" xml:space="preserve">
+    <value>Gambler Nu&lt;br/&gt;- Shyster</value>
+  </data>
+  <data name="lbl_conPage_17.Text" xml:space="preserve">
+    <value>Dice Game, Nangi Track, Lưu ý khi trao đổi bac</value>
+  </data>
+  <data name="lbl_conPage_18.Text" xml:space="preserve">
+    <value>Guild Directer Noh&lt;br/&gt;- Management</value>
+  </data>
+  <data name="lbl_conPage_19.Text" xml:space="preserve">
+    <value>Bảo quản thiết bị, chế tạo/ mở rộng một Guild</value>
+  </data>
+  <data name="lbl_conPage_20.Text" xml:space="preserve">
+    <value>Trader Aikosa&lt;br/&gt;- Fine Goods</value>
+  </data>
+  <data name="lbl_conPage_21.Text" xml:space="preserve">
+    <value>Nhà cung câp mặt hàng</value>
+  </data>
+  <data name="lbl_conPage_22.Text" xml:space="preserve">
+    <value>Bladekeeper Ro&lt;br/&gt;- Blade Trainer</value>
+  </data>
+  <data name="lbl_conPage_23.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản Balde</value>
+  </data>
+  <data name="lbl_conPage_24.Text" xml:space="preserve">
+    <value>Master Brus Li&lt;br/&gt;- Marble Trainer</value>
+  </data>
+  <data name="lbl_conPage_25.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản Marble</value>
+  </data>
+  <data name="lbl_conPage_26.Text" xml:space="preserve">
+    <value>Swordmaster Lupai&lt;br/&gt;- Sword Trainer</value>
+  </data>
+  <data name="lbl_conPage_27.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản Sword</value>
+  </data>
+  <data name="lbl_conPage_28.Text" xml:space="preserve">
+    <value>Elder Chong&lt;br/&gt;- Palace Liason</value>
+  </data>
+  <data name="lbl_conPage_29.Text" xml:space="preserve">
+    <value>chuyển đến Palace,kết hợp Archives,Thiết lập lại Stat</value>
+  </data>
+  <data name="lbl_conPage_30.Text" xml:space="preserve">
+    <value>Ling Chi Fortress</value>
+  </data>
+  <data name="lbl_conPage_31.Text" xml:space="preserve">
+    <value>Gate master Miko&lt;br/&gt;- Zone Travell</value>
+  </data>
+  <data name="lbl_conPage_32.Text" xml:space="preserve">
+    <value>Teleportation, Nhân vật ngân hàng</value>
+  </data>
+  <data name="lbl_conPage_33.Text" xml:space="preserve">
+    <value>Guard Captain Fashu&lt;br/&gt;- PvP Travel</value>
+  </data>
+  <data name="lbl_conPage_34.Text" xml:space="preserve">
+    <value>PvP di chuyển&lt;br/&gt;(trận đánh căn cứ,phòng thủ chiến tranh)</value>
+  </data>
+  <data name="lbl_conPage_35.Text" xml:space="preserve">
+    <value>Blacksmith Kew&lt;br/&gt;- Smithy</value>
+  </data>
+  <data name="lbl_conPage_36.Text" xml:space="preserve">
+    <value>Mua Bán Items, chế tạo sức mạnh của vũ khí.</value>
+  </data>
+  <data name="lbl_conPage_37.Text" xml:space="preserve">
+    <value>ggar Wung&lt;br/&gt;- Antiquities</value>
+  </data>
+  <data name="lbl_conPage_38.Text" xml:space="preserve">
+    <value>Nâng cấp hoặc Hạ cấp mức độ thiết bị</value>
+  </data>
+  <data name="lbl_conPage_39.Text" xml:space="preserve">
+    <value>Agent Kiang&lt;br/&gt;- Commissioned Sales</value>
+  </data>
+  <data name="lbl_conPage_40.Text" xml:space="preserve">
+    <value>Mua hoặc bán hàng</value>
+  </data>
+  <data name="lbl_conPage_41.Text" xml:space="preserve">
+    <value>Tailor Terai&lt;br/&gt;- Protective Equipment</value>
+  </data>
+  <data name="lbl_conPage_42.Text" xml:space="preserve">
+    <value>Mua bán items, và bảo quản enchant</value>
+  </data>
+  <data name="lbl_conPage_43.Text" xml:space="preserve">
+    <value>Herbalist Chang&lt;br/&gt;- Pharmaceuticals</value>
+  </data>
+  <data name="lbl_conPage_44.Text" xml:space="preserve">
+    <value>Mua sức khỏe và chi thuốc và viên nén, Return Scrolls ,trái cây Heavenly.</value>
+  </data>
+  <data name="lbl_conPage_45.Text" xml:space="preserve">
+    <value>Gambler Gousa&lt;br/&gt;- Shyster</value>
+  </data>
+  <data name="lbl_conPage_46.Text" xml:space="preserve">
+    <value>Dice Game, Nangi Track, lưu ý khi trao đổi bạc</value>
+  </data>
+  <data name="lbl_conPage_47.Text" xml:space="preserve">
+    <value>Guild Directer Koh&lt;br/&gt;- Management</value>
+  </data>
+  <data name="lbl_conPage_48.Text" xml:space="preserve">
+    <value>Bảo quản thiết bị, chế tạo/ mở rộng một Guild</value>
+  </data>
+  <data name="lbl_conPage_49.Text" xml:space="preserve">
+    <value>Trader Xhai&lt;br/&gt;- Fine Goods</value>
+  </data>
+  <data name="lbl_conPage_50.Text" xml:space="preserve">
+    <value>Nhà cung cấp mặt hàng hàng</value>
+  </data>
+  <data name="lbl_conPage_51.Text" xml:space="preserve">
+    <value>Katana Tutor Beitan&lt;br/&gt;- Katana Trainer</value>
+  </data>
+  <data name="lbl_conPage_52.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản Katana</value>
+  </data>
+  <data name="lbl_conPage_53.Text" xml:space="preserve">
+    <value>Songsmith Seiren&lt;br/&gt;- Lute Trainer</value>
+  </data>
+  <data name="lbl_conPage_54.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản Lute</value>
+  </data>
+  <data name="lbl_conPage_55.Text" xml:space="preserve">
+    <value>Twinblade Phong&lt;br/&gt;- Double Blade Trainer</value>
+  </data>
+  <data name="lbl_conPage_56.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản D. Blade</value>
+  </data>
+  <data name="lbl_conPage_57.Text" xml:space="preserve">
+    <value>Elder Deison&lt;br/&gt;- Palace Liason</value>
+  </data>
+  <data name="lbl_conPage_58.Text" xml:space="preserve">
+    <value>Di chuyển đến Palace,kết hợp với lưu trữ, Thiết lập lại Stat</value>
+  </data>
+  <data name="lbl_conPage_59.Text" xml:space="preserve">
+    <value>Ronyan Fortress</value>
+  </data>
+  <data name="lbl_conPage_60.Text" xml:space="preserve">
+    <value>Gate master Tai&lt;br/&gt;- Zone Travel</value>
+  </data>
+  <data name="lbl_conPage_61.Text" xml:space="preserve">
+    <value>Teleportation, nhân vật ngân hàng</value>
+  </data>
+  <data name="lbl_conPage_62.Text" xml:space="preserve">
+    <value>Blacksmith Rhu&lt;br/&gt;- Smithy</value>
+  </data>
+  <data name="lbl_conPage_63.Text" xml:space="preserve">
+    <value>Mua Bán Items, chế tạo sức mạnh của vũ khí</value>
+  </data>
+  <data name="lbl_conPage_64.Text" xml:space="preserve">
+    <value>Beggar Gneu&lt;br/&gt;- Antiquities</value>
+  </data>
+  <data name="lbl_conPage_65.Text" xml:space="preserve">
+    <value>Hạ cấp hặc nâng câp mức độ thiết bị.</value>
+  </data>
+  <data name="lbl_conPage_66.Text" xml:space="preserve">
+    <value>Agent Deinar&lt;br/&gt;- Commissioned Sales</value>
+  </data>
+  <data name="lbl_conPage_67.Text" xml:space="preserve">
+    <value>Mua hoặc bán hàng</value>
+  </data>
+  <data name="lbl_conPage_68.Text" xml:space="preserve">
+    <value>Tailor Vehl Kei&lt;br/&gt;- Protective Equipment</value>
+  </data>
+  <data name="lbl_conPage_69.Text" xml:space="preserve">
+    <value>Mua bán items, và bảo quản enchant</value>
+  </data>
+  <data name="lbl_conPage_70.Text" xml:space="preserve">
+    <value>Guard Captain Tuo&lt;br/&gt;- PvP Travel</value>
+  </data>
+  <data name="lbl_conPage_71.Text" xml:space="preserve">
+    <value>PvP di chuyển&lt;br/&gt;(trận đánh căn cứ, phòng thủ chiến tranh)</value>
+  </data>
+  <data name="lbl_conPage_72.Text" xml:space="preserve">
+    <value>Herbalist Yucha&lt;br/&gt;- Pharmaceuticals</value>
+  </data>
+  <data name="lbl_conPage_73.Text" xml:space="preserve">
+    <value>Mua sức khỏe và chi thuốc và viên nén, Return Scrolls,trái cây Heavenly.</value>
+  </data>
+  <data name="lbl_conPage_74.Text" xml:space="preserve">
+    <value>Gambler Dhei&lt;br/&gt;- Shyster</value>
+  </data>
+  <data name="lbl_conPage_75.Text" xml:space="preserve">
+    <value>Dice Game, Nangi Track, lưu ý khi trao đổi bạc</value>
+  </data>
+  <data name="lbl_conPage_76.Text" xml:space="preserve">
+    <value>Guild Directer Joh&lt;br/&gt;- Management</value>
+  </data>
+  <data name="lbl_conPage_77.Text" xml:space="preserve">
+    <value>Bảo quản thiết bị, chế tạo/ mở rộng một Guild</value>
+  </data>
+  <data name="lbl_conPage_78.Text" xml:space="preserve">
+    <value>Trader Fao&lt;br/&gt;- Fine Goods</value>
+  </data>
+  <data name="lbl_conPage_79.Text" xml:space="preserve">
+    <value>Nhà cung cấp mặt hàng</value>
+  </data>
+  <data name="lbl_conPage_80.Text" xml:space="preserve">
+    <value>Scepter Adept Nao&lt;br/&gt;- Scepter Trainer</value>
+  </data>
+  <data name="lbl_conPage_81.Text" xml:space="preserve">
+    <value>Dạy các kỹ năng cơ bản Scepter</value>
+  </data>
+  <data name="lbl_conPage_82.Text" xml:space="preserve">
+    <value>Spear Master Raji&lt;br/&gt;- Spear Trainer</value>
+  </data>
+  <data name="lbl_conPage_83.Text" xml:space="preserve">
+    <value>Dậy kỹ năng cơ bản Spear</value>
+  </data>
+  <data name="lbl_conPage_84.Text" xml:space="preserve">
+    <value>Bladelord Quon&lt;br/&gt;- Light Blade Trainer</value>
+  </data>
+  <data name="lbl_conPage_85.Text" xml:space="preserve">
+    <value>Dạy kỹ năng cơ bản nhẹ Blad</value>
+  </data>
+  <data name="lbl_conPage_86.Text" xml:space="preserve">
+    <value>Elder Sha-Tian&lt;br/&gt;- Palace Liason</value>
+  </data>
+  <data name="lbl_conPage_87.Text" xml:space="preserve">
+    <value>Di chuyển đến Palace, Kết hợp Archives,Thiết lập lại chỉ số</value>
+  </data>
+  <data name="lbl_table_01.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="lbl_table_02.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lbl_table_03.Text" xml:space="preserve">
+    <value>Function</value>
+  </data>
+</root>

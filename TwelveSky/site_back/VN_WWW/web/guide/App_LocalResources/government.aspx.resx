@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_conPage_01.Text" xml:space="preserve">
+    <value>Chính phủ</value>
+  </data>
+  <data name="lbl_conPage_02.Text" xml:space="preserve">
+    <value>Lãnh đạo Phe</value>
+  </data>
+  <data name="lbl_conPage_03.Text" xml:space="preserve">
+    <value>Nó luôn luôn là một thời gian trong chiến tranh, và do đó, mỗi phe bầu ra một lãnh đạo để chỉ huy chống lại sự tấn công của kẻ thù tàn ác. Những chiến binh bỏ phiếu cho những người nào mà họ cảm thấy là tốt nhất, và kết quả là bầu ra một lãnh đạo. Mỗi lãnh đạo có nhiệm kỳ là 30 ngày.</value>
+  </data>
+  <data name="lbl_conPage_04.Text" xml:space="preserve">
+    <value>Nghĩa vụ và trách nhiệm</value>
+  </data>
+  <data name="lbl_conPage_05.Text" xml:space="preserve">
+    <value>Nhóm thông báo: Có khả năng gửi thông báo đến tất cả các thành viên của phe trên khắp bản đổ</value>
+  </data>
+  <data name="lbl_conPage_06.Text" xml:space="preserve">
+    <value>Bổ nhiệm trợ lý lạnh đạo phe: Một lãnh đạo phe có thể bổ nhiệm lên đến 12 trợ lý lãnh đạo của phe. Các ứng cử viên cho VFL Phải có M1+ và có hơn 1000 CP.</value>
+  </data>
+  <data name="lbl_conPage_07.Text" xml:space="preserve">
+    <value>Phe kho bạc: Các lãnh đạo của phe có thể rút bạc nếu có từ 3 trợ lý trở lên.</value>
+  </data>
+  <data name="lbl_conPage_08.Text" xml:space="preserve">
+    <value>Phe Máy ném đá: Trước khi mua của các trưởng lão thì hãy đến Yanggok Valley để bài trí, tối đa với mỗi map là 5. VPLs và lãnh đạo đều có thể mua máy ném đá. Faction Catapult.</value>
+  </data>
+  <data name="lbl_conPage_09.Text" xml:space="preserve">
+    <value>Bỏ phiếu lãnh đạo của phe</value>
+  </data>
+  <data name="lbl_conPage_10.Text" xml:space="preserve">
+    <value>Từ 1~5 ngày: ứng cử viên đăng ký</value>
+  </data>
+  <data name="lbl_conPage_11.Text" xml:space="preserve">
+    <value>Phải có từ M1 trở lên</value>
+  </data>
+  <data name="lbl_conPage_12.Text" xml:space="preserve">
+    <value>Phải có trên 1000 CP</value>
+  </data>
+  <data name="lbl_conPage_13.Text" xml:space="preserve">
+    <value>Từ 6~ 10 ngày: là thời gian bỏ phiếu</value>
+  </data>
+  <data name="lbl_conPage_14.Text" xml:space="preserve">
+    <value>Số người bỏ phiếu phải có từ M1 trở lên</value>
+  </data>
+  <data name="lbl_conPage_15.Text" xml:space="preserve">
+    <value>Ngày 11: Kiểm đếm phiếu</value>
+  </data>
+  <data name="lbl_conPage_16.Text" xml:space="preserve">
+    <value>Số phiếu: Từ 1~33</value>
+  </data>
+  <data name="lbl_conPage_17.Text" xml:space="preserve">
+    <value>M1 = 1 Points</value>
+  </data>
+  <data name="lbl_conPage_18.Text" xml:space="preserve">
+    <value>M33 = 33 Points</value>
+  </data>
+  <data name="lbl_conPage_19.Text" xml:space="preserve">
+    <value>Ngày 11: Công bố lãnh đạo phe</value>
+  </data>
+  <data name="lbl_conPage_20.Text" xml:space="preserve">
+    <value>Vào lúc 9 giờ tối</value>
+  </data>
+  <data name="lbl_conPage_21.Text" xml:space="preserve">
+    <value>Tất cả FLs và VFLs phải loại bỏ.</value>
+  </data>
+  <data name="lbl_conPage_22.Text" xml:space="preserve">
+    <value>Phe liên minh</value>
+  </data>
+  <data name="lbl_conPage_23.Text" xml:space="preserve">
+    <value>Lãnh đạo của cả hai phe có thể đi đến thỏa thuận hòa bình nếu sức mạnh của phe thứ ba trở lên quá áp đảo. Phe liên minh đưa ra nhiểu lợi ích cho phe phái yếu.</value>
+  </data>
+  <data name="lbl_conPage_24.Text" xml:space="preserve">
+    <value>Các yêu cầu liên minh</value>
+  </data>
+  <data name="lbl_conPage_25.Text" xml:space="preserve">
+    <value>Points của phe phải trên 100 trở lên</value>
+  </data>
+  <data name="lbl_conPage_26.Text" xml:space="preserve">
+    <value>Phe mạnh nhất không thể gia nhập liên minh</value>
+  </data>
+  <data name="lbl_conPage_27.Text" xml:space="preserve">
+    <value>Các cuộc đàm phán hòa bình (Liên mình sáng tạo)</value>
+  </data>
+  <data name="lbl_conPage_28.Text" xml:space="preserve">
+    <value>Lãnh đạo của phe phải có mặt tại Saigo Temple</value>
+  </data>
+  <data name="lbl_conPage_29.Text" xml:space="preserve">
+    <value>Liên mình bắt khi hai nhà lãnh đạo của hai phe có mặt tại Altar sau 60 giây.&lt;br/&gt; (Alliance is ended the same way and no further Alliance allowed for the two factions within 2 weeks afterward)</value>
+  </data>
+  <data name="lbl_conPage_30.Text" xml:space="preserve">
+    <value>Tác dụng của Liên minh</value>
+  </data>
+  <data name="lbl_conPage_31.Text" xml:space="preserve">
+    <value>Điển của phe được tổng kết với nhau</value>
+  </data>
+  <data name="lbl_conPage_32.Text" xml:space="preserve">
+    <value>Giữa người đồng hành và Phe có thể nói chuyện và liên kết với nhau</value>
+  </data>
+  <data name="lbl_conPage_33.Text" xml:space="preserve">
+    <value>Giữa quân liên minh và phe không cho phép PvP( loại trừ cuộc cuộc đọ sức tay đôi)</value>
+  </data>
+  <data name="lbl_conPage_34.Text" xml:space="preserve">
+    <value>Liên minh phe đá được ra đời ở thành phố quê hương của các phe.</value>
+  </data>
+  <data name="lbl_conPage_35.Text" xml:space="preserve">
+    <value>Lợi ích chung của bắt phe đá</value>
+  </data>
+</root>
