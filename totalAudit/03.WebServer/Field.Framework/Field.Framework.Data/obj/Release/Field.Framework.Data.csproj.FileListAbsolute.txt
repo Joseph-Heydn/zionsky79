@@ -1,7 +1,0 @@
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\bin\Release\Field.Framework.Data.dll
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\bin\Release\Field.Framework.Data.pdb
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\obj\Release\Field.Framework.Data.csprojResolveAssemblyReference.cache
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\obj\Release\Field.Framework.Data.Resource.resources
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\obj\Release\Field.Framework.Data.csproj.GenerateResource.Cache
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\obj\Release\Field.Framework.Data.dll
-E:\프로젝트\개인플젝\TwelveSky\TwelveSky\Field.Framework\Field.Framework.Data\obj\Release\Field.Framework.Data.pdb
